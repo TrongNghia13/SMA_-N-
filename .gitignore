@@ -1,0 +1,41 @@
+# ASP.NET
+obj/
+bin/
+*.dll
+*.exe
+API/.vs
+API/SMA.API/.vs/
+API/SMA.API/SMA.API/Properties/PublishProfiles/FolderProfile.pubxml.user.rej
+# React
+node_modules/
+build/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Common
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Flutter/Dart specific
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+ios/.generated/
+android/app/src/main/flutter_assets/
+android/app/build/
+android/gradle/
+Mobile/SMA_v1/.idea/
+Mobile/SMA_v1/linux/flutter/
+Mobile/SMA_v1/macos/Flutter/
+Mobile/SMA_v1/windows/flutter/

@@ -1,0 +1,233 @@
+// @import "~antd/dist/antd.css";
+@import '~antd/dist/reset.css';
+@import "~rc-easyui/dist/themes/bootstrap/easyui.css";
+@import "~rc-easyui/dist/themes/icon.css";
+@import "~rc-easyui/dist/themes/react.css";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+input:disabled,
+.ant-select-disabled {
+  background-color: #f9f9f9 !important;
+  color: #000 !important;
+}
+
+.input-text-upercase {
+  text-transform: uppercase !important;
+
+  input {
+    text-transform: uppercase !important;
+  }
+}
+
+.input-text-capitalize {
+  text-transform: capitalize !important;
+
+  input {
+    text-transform: capitalize !important;
+  }
+}
+
+.textbox-disabled {
+  opacity: 1 !important;
+}
+
+.text-red {
+  color: red !important;
+}
+
+.text-blue {
+  color: blue !important;
+}
+.text-black {
+  color: black !important;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-b-5 {
+  margin-bottom: 5px;
+}
+
+.pd-t-5 {
+  padding-top: 5px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.layout-page {
+  min-height: 100vh;
+}
+
+.spin-loading {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  z-index: 999;
+}
+
+.pannel-colummn {
+  width: 100%;
+  display: flex;
+
+  .left-panel {
+    display: flex;
+    width: 20%;
+  }
+
+  .right-pannel {
+    display: flex;
+  }
+}
+
+.lable-form-left {
+  padding-top: 8px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.ant-input-number {
+  width: 100% !important;
+}
+
+.numberCard {
+  padding: 20px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  -webkit-box-shadow: -2px 2px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 19px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 2px 19px -6px rgba(0, 0, 0, 0.75);
+  border-left: 5px solid #3f51b5;
+
+  .iconWarp {
+    font-size: 70px;
+    float: left;
+  }
+
+  .iconWarp.red {
+    color: red;
+  }
+
+  .content {
+    width: 100%;
+    padding-left: 78px;
+
+    .title {
+      line-height: 14px;
+      font-size: 14px;
+      margin-bottom: 15px;
+      height: 14px;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+
+    .number {
+      line-height: 28px;
+      font-size: 28px;
+      height: 28px;
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+
+    .number-small {
+      line-height: 24px;
+      font-size: 24px;
+      height: 24px;
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+  }
+}
+
+.ant-select-dropdown-menu-item:active,
+.ant-select-dropdown-menu-item:focus,
+.ant-select-dropdown-menu-item:target,
+.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled),
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+  background-color: #95c2d8;
+}
+
+.ant-btn-small-20 {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.table-row-light {
+  background-color: #e8e5e5;
+}
+
+.table-row-dark {
+  background-color: #dedbdb;
+}
+
+.color-bold {
+  font-weight: bold;
+}
+
+table.roundedcorners {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 350px;
+}
+
+table.roundedcorners tr th,
+table.roundedcorners tr td {
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding: 5px;
+}
+
+table.roundedcorners tr th:first-child,
+table.roundedcorners tr td:first-child {
+  border-left: 1px solid #bbb;
+}
+
+table.roundedcorners tr th {
+  background: #eee;
+  border-top: 1px solid #bbb;
+  text-align: left;
+}
+
+/* top-left border-radius */
+table.roundedcorners tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+table.roundedcorners tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+table.roundedcorners tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+table.roundedcorners tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.sodo-page {
+  width: 100%;
+  height: calc(100vh - 100px);
+}

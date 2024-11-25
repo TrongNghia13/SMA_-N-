@@ -1,0 +1,6 @@
+declare module 'rc-easyui'
+declare module '@antv/data-set'
+declare module 'react-perfect-scrollbar'
+declare module 'react-data-export'
+declare module 'react-to-pdf'
+declare module 'jspdf'

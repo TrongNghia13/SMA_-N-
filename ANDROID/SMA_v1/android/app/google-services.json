@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "48228882963",
+    "project_id": "sma-notification-a93e8",
+    "storage_bucket": "sma-notification-a93e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48228882963:android:a36a87cdfc3a4190b13de6",
+        "android_client_info": {
+          "package_name": "com.luanvanFPT.G7.sma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48228882963-d47h22gqcgikoaqo8cg0kcsd2l06fdsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luanvanFPT.G7.sma",
+            "certificate_hash": "5ad4036f72b842839bcd9497e71d0881f54ca6ef"
+          }
+        },
+        {
+          "client_id": "48228882963-qjincco6ucsedm7riqb0pd2vjco4hmd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luanvanFPT.G7.sma",
+            "certificate_hash": "5d067acd92465f64ac871435f45aa86f1f921a72"
+          }
+        },
+        {
+          "client_id": "48228882963-m5pfp0og1q5l59vbljtaa3k8pkt5eh9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG13ff3q7soAtwhZqPOt6WWJHVzwTK5vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48228882963-m5pfp0og1q5l59vbljtaa3k8pkt5eh9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+enum EnumTypeReport {
+    ComboBox = 1,
+    Date = 2,
+    Text = 3,
+    Month = 4,
+    CB_DONVI = 5,
+    CB_KHO = 6,
+    CB_NHOMHANGHOA = 7,
+    CB_HANGHOA = 8,
+    CB_LOAIBC = 9,
+    CB_TONAM = 10,
+    CB_NHANVIEN = 11,
+    CB_SORT_NHANVIEN = 12,
+    CB_LOAI_NO = 13,
+    CB_DOI_TUONG = 14,
+    CB_SORT_BAOCAO_NO_DONG = 15,
+    CB_LIST_THUCHI = 16,
+    CB_LIST_CHIPHI = 17,
+    CB_LOAI_NO_THUTRA = 18,
+    CB_SORT_PHIEU_NHANVIEN = 19,
+    CB_LOAI_CHUNG_TU = 20,
+    CB_LOAIBC_DS_NHAPXUAT = 21
+}
+export default EnumTypeReport;

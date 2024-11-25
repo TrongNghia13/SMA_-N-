@@ -1,0 +1,11 @@
+diff a/API/SMA.API/SMA.API/Properties/PublishProfiles/FolderProfile.pubxml.user b/API/SMA.API/SMA.API/Properties/PublishProfiles/FolderProfile.pubxml.user	(rejected hunks)
+@@ -5,7 +5,7 @@
+ <Project>
+   <PropertyGroup>
+     <_PublishTargetUrl>C:\Users\nguye\OneDrive\Documents\SMA\API\SMA.API\SMA.API\bin\Release\net6.0\publish\</_PublishTargetUrl>
+-    <History>True|2023-07-12T04:26:05.0946751Z;True|2023-07-11T21:55:19.8513590+07:00;True|2023-07-11T21:39:00.1491692+07:00;</History>
++    <History>True|2023-07-12T06:52:11.2433656Z;True|2023-07-12T11:26:05.0946751+07:00;True|2023-07-11T21:55:19.8513590+07:00;True|2023-07-11T21:39:00.1491692+07:00;</History>
+     <LastFailureDetails />
+   </PropertyGroup>
+ </Project>
+\ No newline at end of file
